@@ -58,7 +58,7 @@ easy to understand.
 
 <img src=plots/check_corrolation.png>
 
-- At least 1 figure
+MEDV has more strong corrolation with LSTAT and RM than other vairables
 - At least 1 "value" that summarizes either your data or the "performance" of your method
 - A short explanation of both of the above
 
