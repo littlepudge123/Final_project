@@ -86,4 +86,5 @@ print('RMSE is {}'.format(rmse))
 print('R2 score is {}'.format(r2))
 
 plt.scatter(Y_test, y_test_predict)
+plt.savefig('plots/prediciton_accurate.png',dpi=300)
 plt.show()
