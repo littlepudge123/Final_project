@@ -56,7 +56,7 @@ easy to understand.
 
 ### Results
 
-<img src="check_corrolation.png">
+<img src=plots/check_corrolation.png>
 
 - At least 1 figure
 - At least 1 "value" that summarizes either your data or the "performance" of your method
