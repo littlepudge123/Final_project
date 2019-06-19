@@ -38,6 +38,7 @@ i want to find corrolation and make prediction between variables
   
 - resolution (what did we end up producing)
   an model that can predict housing price by fitting some needed variables.
+  
 ### Introduction
 
 We will take the Housing dataset which contains information about different houses in Boston. 
@@ -62,6 +63,7 @@ MEDV has more strong corrolation with LSTAT and RM than other vairables
 ---------------------------------
 less_variables prediction result:
 ---------------------------------
+
 model performance for training:
 RMSE is 5.336540235231381
 R2 score is 0.6432412744361098
@@ -70,6 +72,7 @@ R2 score is 0.6432412744361098
 The model performance for testing:
 RMSE is 5.892324773775039
 R2 score is 0.6296344935050338
+
 -----------------------------------
 --more variables prediction result:
 -----------------------------------
@@ -81,9 +84,11 @@ R2 score is 0.723329664607405
 The model performance for testing:
 RMSE is 5.539331993785582
 R2 score is 0.6726804317956763
+
 ----------------------------------
 some prediction for housing price-'MEDV'
 ----------------------------------
+
 Value: 24.40, pred: 31.49, diff: -7.09
 Value: 33.40, pred: 22.27, diff: 11.13
 Value: 31.60, pred: 19.16, diff: 12.44
@@ -95,6 +100,7 @@ Value: 25.30, pred: 12.65, diff: 12.65
 Value: 18.30, pred: 11.72, diff: 6.58
 Value: 16.60, pred: 18.69, diff: -2.09
 ### Discussion
+
 So i find LSTAT and RM have strong corrolation with housing price through heating map. And find that housing price 
 going up with more rooms, also will going up with less lower-income population.When i build the model, trying to
  predict the value of house, the accurate is around 64% and prediction error is 5.5 in average. So the result is not good
@@ -103,6 +109,7 @@ going up with more rooms, also will going up with less lower-income population.W
 
 
 ### References
+
 All of the links
 resouce:https://towardsdatascience.com/linear-regression-on-boston-housing-dataset-f409b7e4a155
 https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html
