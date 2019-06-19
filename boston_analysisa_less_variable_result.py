@@ -47,10 +47,7 @@ for i, col in enumerate(features):
 plt.close()
 
 # prepare for modeling
-X = pd.DataFrame(np.c_[bos['LSTAT'], bos['RM'], bos['DIS'], bos['INDUS'], bos['CHAS'], bos['NOX']
-                 , bos['AGE'], bos['RAD'], bos['TAX'], bos['B'], bos['CRIM'], bos['ZN']],
-                 columns = ['LSTAT','RM', 'DIS', 'INDUS', 'CHAS', 'NOX', 'AGE', 'RAD',
-                            'TAX', 'B', 'CRIM', 'ZN'])
+X = pd.DataFrame(np.c_[bos['LSTAT'], bos['RM']],columns = ['LSTAT','RM'])
 Y = bos['MEDV']
 
 # build train and test
