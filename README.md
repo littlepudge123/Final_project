@@ -82,7 +82,7 @@ The model performance for testing:
 RMSE is 5.539331993785582
 R2 score is 0.6726804317956763
 ----------------------------------
-some prediction for training
+some prediction for housing price-'MEDV'
 ----------------------------------
 Value: 24.40, pred: 31.49, diff: -7.09
 Value: 33.40, pred: 22.27, diff: 11.13
